@@ -91,6 +91,19 @@ input:focus {
     margin-right: 52px;
 }
 
+#alert-msg{
+    background-color: #E11D48;
+    border: none;
+    border-radius: 6px;
+    width: 446px;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .param {
     text-align: center;
 }

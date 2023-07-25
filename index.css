@@ -52,7 +52,6 @@ input:focus {
 }
 
 #spec {
-/*     background-color: chartreuse; */
     display: flex;
     margin-left: 52px;
     margin-right: 52px;
@@ -75,12 +74,21 @@ input:focus {
     margin-top: 20px;
 }
 
+#copy-btns {
+    display: flex;
+    width: 550px;
+    height: 56px;
+    justify-content: space-between;
+}
+
 #pw1, #pw2 {
     background-color: #065F46;
     border: none;
     border-radius: 6px;
     width: 211px;
     height: 39px;
+    color: #A7F3D0;
+    line-height: 39px;
 }
 
 #pw1 {
